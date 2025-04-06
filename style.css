@@ -1,7 +1,7 @@
 body {
     background-color: #143b41;
     color: #f3bb68;
-    background-image: url("./images/background.png");
+    background-image: url("/images/background.png");
     background-size: 219px 198px;
 }
 
@@ -60,28 +60,28 @@ a {
     margin: 0px 40px 0px 40px;
 }
 
-.navbtn a[href="./home.html"] div {
-    background-image: url("./images/home.png");
+.navbtn a[href="/home.html"] div {
+    background-image: url("/images/home.png");
 }
 
-.navbtn a[href="./illustration.html"] div {
-    background-image: url("./images/illus.png");
+.navbtn a[href="/illustration.html"] div {
+    background-image: url("/images/illus.png");
 }
 
-.navbtn a[href="./about-contact.html"] div {
-    background-image: url("./images/abt.png");
+.navbtn a[href="/about-contact.html"] div {
+    background-image: url("/images/abt.png");
 }
 
-.navbtn a[href="./home.html"] div:hover {
-    background-image: url("./images/homeclick.png");
+.navbtn a[href="/home.html"] div:hover {
+    background-image: url("/images/homeclick.png");
 }
 
-.navbtn a[href="./illustration.html"] div:hover {
-    background-image: url("./images/illusclick.png");
+.navbtn a[href="/illustration.html"] div:hover {
+    background-image: url("/images/illusclick.png");
 }
 
-.navbtn a[href="./about-contact.html"] div:hover {
-    background-image: url("./images/abtclick.png");
+.navbtn a[href="/about-contact.html"] div:hover {
+    background-image: url("/images/abtclick.png");
 }
 
 .navbtn img {
@@ -237,28 +237,28 @@ a {
     margin: 0px;
   }
 
-  .navbtn a[href="./home.html"] div {
-    background-image: url("./images/mhome.png");
+  .navbtn a[href="/home.html"] div {
+    background-image: url("/images/mhome.png");
   }
 
-  .navbtn a[href="./illustration.html"] div {
-    background-image: url("./images/millus.png");
+  .navbtn a[href="/illustration.html"] div {
+    background-image: url("/images/millus.png");
   }
 
-  .navbtn a[href="./about-contact.html"] div {
-    background-image: url("./images/mabt.png");
+  .navbtn a[href="/about-contact.html"] div {
+    background-image: url("/images/mabt.png");
   }
 
-  .navbtn a[href="./home.html"] div:hover {
-    background-image: url("./images/mhomeclick.png");
+  .navbtn a[href="/home.html"] div:hover {
+    background-image: url("/images/mhomeclick.png");
   }
 
-  .navbtn a[href="./illustration.html"] div:hover {
-    background-image: url("./images/millusclick.png");
+  .navbtn a[href="/illustration.html"] div:hover {
+    background-image: url("/images/millusclick.png");
   }
 
-  .navbtn a[href="./about-contact.html"] div:hover {
-    background-image: url("./images/mabtclick.png");
+  .navbtn a[href="/about-contact.html"] div:hover {
+    background-image: url("/images/mabtclick.png");
   }
 
   .mainsection {
