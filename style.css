@@ -1,0 +1,319 @@
+body {
+    background-color: #143b41;
+    color: #f3bb68;
+    background-image: url("./images/background.png");
+    background-size: 219px 198px;
+}
+
+a {
+    color: #9eeed6;
+    text-decoration: underline;
+}
+
+.header {
+    height: 150px;
+    width: 100%;
+    background-color: #225b64;
+    align-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: solid 4px #f3bb68;
+}
+
+.spacer {
+    height: 150px;
+    margin: 0px 0px 10px 0px
+}
+
+.title {
+    height: 108px;
+}
+
+.title img {
+    height: 100%;
+}
+
+.desktopheadernav {
+    display: flex;
+    justify-content: left;
+}
+
+.mobileheadernav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navsection {
+    height: 150px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px 0px 30px;
+}
+
+.navbtn div {
+    height: 150px;
+    width: 276px;
+    background-size: 100%;
+    margin: 0px 40px 0px 40px;
+}
+
+.navbtn a[href="./home.html"] div {
+    background-image: url("./images/home.png");
+}
+
+.navbtn a[href="./illustration.html"] div {
+    background-image: url("./images/illus.png");
+}
+
+.navbtn a[href="./about-contact.html"] div {
+    background-image: url("./images/abt.png");
+}
+
+.navbtn a[href="./home.html"] div:hover {
+    background-image: url("./images/homeclick.png");
+}
+
+.navbtn a[href="./illustration.html"] div:hover {
+    background-image: url("./images/illusclick.png");
+}
+
+.navbtn a[href="./about-contact.html"] div:hover {
+    background-image: url("./images/abtclick.png");
+}
+
+.navbtn img {
+    width: 100%;
+}
+
+.page {
+    justify-items: center;
+}
+
+.mainsection {
+    width: 25%;
+    background-color: #808080;
+    height: 700px;
+    margin: 10px;
+}
+
+.content {
+    width: 80%;
+    justify-items: center;
+}
+
+.artworkgrid {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.tileslabel {
+    width: 30%;
+    background-color: #225b64;
+    margin: 0px 10px 0px 0px;
+    border: double #f3bb68 10px;
+}
+
+.tileslabel p, .tileslabel h2 {
+    margin: 20px;
+    text-align: right;
+}
+
+.tilesgrid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    margin: 10px;
+    height: 250px;
+}
+
+.tile img {
+    height: 100%;
+}
+
+.about {
+    justify-content: center;
+}
+
+.about h2 {
+    margin: 0px;
+}
+
+.abouttxt {
+    background-color: #225b64;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 50%;
+    border: double #f3bb68 10px;
+}
+
+.abouttxtblock {
+    height: 80%;
+    padding: 20px;
+}
+
+.aboutlinks {
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.aboutlinks a {
+    margin: 30px;
+}
+
+.aboutlinks div img {
+    vertical-align: middle;
+    margin: 0px 10px 0px 0px;
+}
+
+.footer {
+    background-color: #225b64;
+    width: 100%;
+    height: 150px;
+    border-top: solid 4px #f3bb68;
+    position: absolute;
+    left: 0;
+}
+
+.footer p {
+    margin: 30px 10% 0px 10%;
+}
+
+@media only screen and (min-width: 600px) {
+  .mobileheadernav, .mobilemain {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  body {
+    background-size: 40%;
+  }
+
+  .header, .spacer {
+    height: 175px;
+  }
+
+  .desktopheadernav, .desktopmain {
+    display: none !important;
+  }
+
+  .mobileheadernav, .mobilemain {
+    display: flex;
+  }
+
+  .mobileheadernav {
+    margin: 30px 0px 0px 0px;
+  }
+
+  .navsection {
+    width: 100%;
+    height: 80px;
+    margin: 0px 10px;
+  }
+
+  .title {
+    width: 100%;
+    height: unset;
+  }
+
+  .title img {
+    width: 100%;
+  }
+
+  .navbtn div {
+    height: 25px;
+    width: 115px;
+    background-size: cover;
+    margin: 0px;
+  }
+
+  .navbtn a[href="./home.html"] div {
+    background-image: url("./images/mhome.png");
+  }
+
+  .navbtn a[href="./illustration.html"] div {
+    background-image: url("./images/millus.png");
+  }
+
+  .navbtn a[href="./about-contact.html"] div {
+    background-image: url("./images/mabt.png");
+  }
+
+  .navbtn a[href="./home.html"] div:hover {
+    background-image: url("./images/mhomeclick.png");
+  }
+
+  .navbtn a[href="./illustration.html"] div:hover {
+    background-image: url("./images/millusclick.png");
+  }
+
+  .navbtn a[href="./about-contact.html"] div:hover {
+    background-image: url("./images/mabtclick.png");
+  }
+
+  .mainsection {
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .content {
+    width: 95%;
+  }
+
+  .about {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .abouttxt {
+    width: 100%;
+  }
+
+  .abouttxtblock {
+    padding: 20px 20px 0px 20px;
+  }
+
+  .aboutlinks {
+    flex-wrap: wrap;
+  }
+
+  .aboutlinks a {
+    margin: 5px 5%;
+    width: 100%;
+}
+
+  .artworkgrid {
+    flex-wrap: wrap;
+  }
+
+  .tileslabel {
+    width: 100%;
+    margin: 0px 00px 10px 0px;
+  }
+
+  .tileslabel p, .tileslabel h2 {
+    text-align: center;
+  }
+
+  .tilesgrid {
+    justify-content: center;
+  }
+
+  .tile {
+    margin: 5px;
+    height: 100px;
+  }
+
+}
