@@ -1,13 +1,28 @@
 body {
     background-color: #143b41;
-    color: #f3bb68;
+    color: #fce08f;
     background-image: url("./images/background.png");
     background-size: 219px 198px;
+    font-family: "federo", Garamond, serif;
+}
+
+@font-face {
+  font-family: "federo";
+  src: url("./federo/federo-regular-webfont.woff");
 }
 
 a {
     color: #9eeed6;
     text-decoration: underline;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 .header {
@@ -18,7 +33,7 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-    border-bottom: solid 4px #f3bb68;
+    border-bottom: solid 4px #fce08f;
 }
 
 .spacer {
@@ -60,8 +75,8 @@ a {
     margin: 0px 40px 0px 40px;
 }
 
-.navbtn a[href="./home.html"] div {
-    background-image: url("./images/home.png");
+.navbtn a[href="./index.html"] div {
+    background-image: url("./images/index.png");
 }
 
 .navbtn a[href="./illustration.html"] div {
@@ -72,8 +87,8 @@ a {
     background-image: url("./images/abt.png");
 }
 
-.navbtn a[href="./home.html"] div:hover {
-    background-image: url("./images/homeclick.png");
+.navbtn a[href="./index.html"] div:hover {
+    background-image: url("./images/indexclick.png");
 }
 
 .navbtn a[href="./illustration.html"] div:hover {
@@ -100,6 +115,10 @@ a {
 .mainsection {
     height: 600px;
     margin: 10px;
+    border-style: double;
+    border-width: 8px;
+    border-color: #fce08f;
+
 }
 
 .mainsection img {
@@ -122,7 +141,7 @@ a {
     width: 30%;
     background-color: #225b64;
     margin: 0px 10px 0px 0px;
-    border: double #f3bb68 10px;
+    border: double #fce08f 10px;
 }
 
 .tileslabel p, .tileslabel h2 {
@@ -152,6 +171,11 @@ a {
 
 .about h2 {
     margin: 0px;
+    font-size: 40px;
+}
+
+.about p {
+  font-size: 20px;
 }
 
 .abouttxt {
@@ -161,12 +185,12 @@ a {
     flex-wrap: nowrap;
     justify-content: space-between;
     width: 50%;
-    border: double #f3bb68 10px;
+    border: double #fce08f 10px;
 }
 
 .abouttxtblock {
     height: 80%;
-    padding: 20px;
+    padding: 40px;
 }
 
 .aboutlinks {
@@ -189,9 +213,10 @@ a {
     background-color: #225b64;
     width: 100%;
     height: 150px;
-    border-top: solid 4px #f3bb68;
+    border-top: solid 4px #fce08f;
     position: absolute;
     left: 0;
+    bottom: 0;
 }
 
 .footer p {
@@ -270,8 +295,8 @@ a {
     margin: 0px;
   }
 
-  .navbtn a[href="./home.html"] div {
-    background-image: url("./images/mhome.png");
+  .navbtn a[href="./index.html"] div {
+    background-image: url("./images/mindex.png");
   }
 
   .navbtn a[href="./illustration.html"] div {
@@ -282,8 +307,8 @@ a {
     background-image: url("./images/mabt.png");
   }
 
-  .navbtn a[href="./home.html"] div:hover {
-    background-image: url("./images/mhomeclick.png");
+  .navbtn a[href="./index.html"] div:hover {
+    background-image: url("./images/mindexclick.png");
   }
 
   .navbtn a[href="./illustration.html"] div:hover {
@@ -302,6 +327,7 @@ a {
   .mainsection {
     width: 40%;
     height: unset;
+    border: double #fce08f 10px;
   }
 
   .mainsection img {
