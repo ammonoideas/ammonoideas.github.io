@@ -4,6 +4,7 @@ body {
     background-image: url("./images/background.png");
     background-size: 219px 198px;
     font-family: "federo", Garamond, serif;
+    margin: 0;
 }
 
 @font-face {
@@ -31,8 +32,6 @@ h2 {
     background-color: #225b64;
     align-content: center;
     position: fixed;
-    top: 0;
-    left: 0;
     border-bottom: solid 4px #fce08f;
 }
 
@@ -119,6 +118,15 @@ h2 {
     border-width: 8px;
     border-color: #fce08f;
 
+}
+
+.hometitle {
+  width: 40%;
+  margin: auto;
+}
+
+.hometitle img {
+  width: 100%;
 }
 
 .mainsection img {
@@ -214,9 +222,6 @@ h2 {
     width: 100%;
     height: 150px;
     border-top: solid 4px #fce08f;
-    position: absolute;
-    left: 0;
-    bottom: 0;
 }
 
 .footer p {
@@ -327,11 +332,15 @@ h2 {
   .mainsection {
     width: 40%;
     height: unset;
-    border: double #fce08f 10px;
+    border: double #fce08f 8px;
   }
 
   .mainsection img {
     width: 100%;
+  }
+
+  .hometitle {
+    width: 80%;
   }
 
   .content {

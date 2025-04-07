@@ -13,10 +13,29 @@ Site built by Chase Burns chaseburns.art
   <meta name="description" content="The art of Felix Xu">
   <meta name="theme-color" content="#143b41">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ammonoideas Illustration</title> 
+  <title>About/Contact | Ammonoideas Illustration</title> 
   <link rel="icon" type="image/x-icon" href="./images/favicon.png">
   <link rel="stylesheet" href="./style.css">
   <script defer src="script.js"></script>
+  <style>
+	@media only screen and (min-width: 600px) { 
+		.footer {
+		position: absolute;
+		bottom: 0;
+		}
+
+		.navbtn a[href="./about-contact.html"] div {
+    	background-image: url("./images/abtclick.png");
+  		}
+	}
+
+	@media only screen and (max-width: 600px) {
+
+		.navbtn a[href="./about-contact.html"] div {
+			background-image: url("./images/mabtclick.png");
+		}
+}
+  </style>
 </head>
 <body>
 <nav class="header">
@@ -54,10 +73,10 @@ Site built by Chase Burns chaseburns.art
 		</div>
 <br><br>
 <br><br>
-	<div class="footer">
+</div>
+<div class="footer">
 	<p>© 2025 Felix Xu</p>
 	</div>
 	</div>
-</div>
 </div>
 </body></html>
