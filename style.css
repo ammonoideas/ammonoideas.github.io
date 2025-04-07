@@ -332,7 +332,7 @@ h2 {
   .mainsection {
     width: 40%;
     height: unset;
-    border: double #fce08f 8px;
+    border: double #fce08f 6px;
   }
 
   .mainsection img {
